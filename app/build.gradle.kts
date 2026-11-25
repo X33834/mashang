@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
     id("com.chaquo.python")
-    id("org.jetbrains.kotlin.plugin.serialization") version "2.4.10"
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.4.21"
 }
 
 android {
@@ -168,7 +168,7 @@ dependencies {
     // LiveData → Compose State 桥接（observeAsState，来自 androidx.compose.runtime.livedata）
     implementation("androidx.compose.runtime:runtime-livedata:1.7.6")
     // kotlinx-serialization：BackupUtil 备份 JSON 序列化所需
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.13.0")
 
     // QR code for certificate poster
     implementation("com.google.zxing:core:3.5.4")
