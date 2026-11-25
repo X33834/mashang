@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="docs/banner.png" alt="CodeLearning" width="830"/>
+<img src="docs/banner.png" alt="PyNeon" width="830"/>
 
-**CodeLearning: write code on your phone. Six languages, 245 lessons, all offline.**
+**PyNeon: write code on your phone. Six languages, 245 lessons, all offline.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-00E5FF.svg)](LICENSE)
 [![Android](https://img.shields.io/badge/Android-10.0%2B-00E5FF.svg)]()

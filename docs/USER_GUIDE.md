@@ -1,10 +1,10 @@
-# CodeLearning（码上）用户手册
+# PyNeon用户手册
 
 > 适用于 v0.7.5（versionCode 24）及后续版本。
 > 项目主页：<https://gitcode.com/badhope/mashang>  
 > 官网：<https://badhope.github.io/mashang/>
 
-CodeLearning（码上）是一台装在手机里的离线编程学习终端：课程、代码编辑器、真实语言运行时和断言判题都在本机运行，不需要账号，也不会上传学习数据。
+PyNeon是一台装在手机里的离线编程学习终端：课程、代码编辑器、真实语言运行时和断言判题都在本机运行，不需要账号，也不会上传学习数据。
 
 ---
 
@@ -118,7 +118,7 @@ C / TypeScript 是教学子集：C 不支持预处理指令、`goto` 与函数�
 
 路径：「我的」里的备份/恢复。
 
-- 导出：生成 JSON 到 `Downloads/CodeLearning`，包含 XP、通关课程、已解练习、连击、徽章、错题与复习卡。
+- 导出：生成 JSON 到 `Downloads/PyNeon`，包含 XP、通关课程、已解练习、连击、徽章、错题与复习卡。
 - 导入：在文件选择器中选择备份 JSON；导入前会校验版本与结构。
 - 换机：旧机导出，把 JSON 传到新机，新机导入。
 - 注意：重置进度不可撤销；重置前请先导出备份。

@@ -50,7 +50,7 @@ fun AboutScreen(
             onBack = onBack
         )
         Text(
-            "CodeLearning（码上）\n版本 v${AppConstants.VERSION_NAME}",
+            "PyNeon\n版本 v${AppConstants.VERSION_NAME}",
             style = MaterialTheme.typography.bodyMedium,
             color = TextMid
         )
@@ -58,7 +58,7 @@ fun AboutScreen(
         SectionHeader("开源与授权", accent = NeonCyan)
         Text(
             "本应用以 MIT 协议开源：可以自由使用、修改和再分发，个人、教育、商业用途都行，保留版权和许可声明即可。" +
-                "软件按原样提供，不附带担保。CodeLearning 和码上的名称、标识保留商标权。",
+                "软件按原样提供，不附带担保。PyNeon 名称与标识仅用于产品识别，未注册商标不主张专用权。",
             style = MaterialTheme.typography.bodySmall,
             color = TextMid
         )
@@ -134,7 +134,7 @@ fun AboutScreen(
         NeonButton(
             label = "联系我们",
             accent = NeonCyan,
-            onClick = { ShareHelper.sendEmail(context, AppConstants.CONTACT_EMAIL, "CodeLearning 联系") },
+            onClick = { ShareHelper.sendEmail(context, AppConstants.CONTACT_EMAIL, "PyNeon 联系") },
             modifier = Modifier.fillMaxWidth()
         )
 

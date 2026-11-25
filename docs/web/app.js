@@ -1,4 +1,4 @@
-/* CodeLearning 网页版，浏览器里跑 CPython 3.13（Pyodide 0.29.5）。
+/* PyNeon 网页版，浏览器里跑 CPython 3.13（Pyodide 0.29.5）。
  * 课程 JSON 和 runner.py 都跟 Android 端共用，判题结果和变量快照能对上。
  * 用户代码放 Web Worker 里，死循环可以直接 terminate，页面不会卡住。
  */
@@ -356,7 +356,7 @@
       // 非 Python 语言只展示代码，运行去手机端。
       card.appendChild(el("pre", "term", code));
       card.appendChild(el("div", "run-tag",
-        langLabel(lang) + "：网页端只有 Python 引擎，这段代码请到 CodeLearning App 里运行"));
+        langLabel(lang) + "：网页端只有 Python 引擎，这段代码请到 PyNeon App 里运行"));
       return card;
     }
     var ta = el("textarea", "code-area");
@@ -561,7 +561,7 @@
       c.appendChild(pre);
       if (b.hint) c.appendChild(el("div", "hint", "提示：" + b.hint));
       c.appendChild(el("div", "run-tag",
-        langLabel(exLang) + "：网页端只有 Python 引擎，判题请到 CodeLearning App 里做"));
+        langLabel(exLang) + "：网页端只有 Python 引擎，判题请到 PyNeon App 里做"));
       return c;
     }
     var ta = el("textarea", "code-area");
@@ -722,7 +722,7 @@
 
     var hero = el("section", "home-hero");
     var titleWrap = el("div", "hero-copy");
-    titleWrap.appendChild(el("div", "eyebrow", "CodeLearning 网页版"));
+    titleWrap.appendChild(el("div", "eyebrow", "PyNeon 网页版"));
     titleWrap.appendChild(el("h1", "hero-title", "打开浏览器就能写 Python。"));
     titleWrap.appendChild(el("p", "hero-sub", "六门语言、共 " + lessons.length + " 讲，自动判题，运行后能看到变量快照。"));
     var actions = el("div", "hero-actions");
@@ -1015,7 +1015,7 @@
       c.appendChild(title);
       c.appendChild(el("div", "ad", langLabel(ch.lang) + "，难度 " + (ch.difficulty || "") + "，+" + (ch.xp || 0) + " XP"));
       c.appendChild(el("div", "ab", ch.brief));
-      c.appendChild(el("div", "ab dim", "这个语言的运行时只在手机端，请到 CodeLearning App 里打开。"));
+      c.appendChild(el("div", "ab dim", "这个语言的运行时只在手机端，请到 PyNeon App 里打开。"));
       grid.appendChild(c);
     });
     view.appendChild(grid);
@@ -1030,7 +1030,7 @@
     if ((ch.lang || "python") !== "python") {
       var notice = el("div", "card");
       notice.appendChild(el("div", "blk-heading", ch.title + "：" + langLabel(ch.lang)));
-      notice.appendChild(el("div", "brief", "这是 " + langLabel(ch.lang) + " 挑战，网页端只有 Python 引擎，请到 CodeLearning App 里做。"));
+      notice.appendChild(el("div", "brief", "这是 " + langLabel(ch.lang) + " 挑战，网页端只有 Python 引擎，请到 PyNeon App 里做。"));
       view.appendChild(notice);
       return;
     }

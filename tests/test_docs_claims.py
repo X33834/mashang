@@ -7,7 +7,7 @@
 
 被锁定的文件：
   - FAQ.md
-  - docs/softcopy/软件说明书.md
+  - docs/softcopy/软件说明书.md（软著材料单独存放，缺失时跳过）
   - README.md / README.zh-CN.md / README.ja-JP.md
   - app/src/main/java/com/pyneon/academy/lang/LanguageRuntime.kt
   - app/src/main/java/com/pyneon/academy/screens/{AboutScreen,PrivacyPolicyScreen}.kt
@@ -87,14 +87,20 @@ class TestCountClaims(unittest.TestCase):
 
     def test_softcopy_test_count_matches_suite(self):
         count = _test_method_count()
-        text = _read(ROOT / "docs" / "softcopy" / "软件说明书.md")
+        manual = ROOT / "docs" / "softcopy" / "软件说明书.md"
+        if not manual.exists():
+            self.skipTest("软著材料与开源仓库分开存放，未随仓库提供")
+        text = _read(manual)
         self.assertIn(
             f"| 合计 | **{count}** |", text, f"软著说明书合计应为 {count} 条"
         )
 
     def test_softcopy_judge_counts_match_assets(self):
         counts = _judge_counts()
-        text = _read(ROOT / "docs" / "softcopy" / "软件说明书.md")
+        manual = ROOT / "docs" / "softcopy" / "软件说明书.md"
+        if not manual.exists():
+            self.skipTest("软著材料与开源仓库分开存放，未随仓库提供")
+        text = _read(manual)
         labels = {
             "python": "Python",
             "javascript": "JavaScript",
@@ -116,14 +122,20 @@ class TestCountClaims(unittest.TestCase):
 
     def test_softcopy_source_scale_matches_repo(self):
         kt_files, py_files, kt_lines, py_lines = _source_scale()
-        text = _read(ROOT / "docs" / "softcopy" / "软件说明书.md")
+        manual = ROOT / "docs" / "softcopy" / "软件说明书.md"
+        if not manual.exists():
+            self.skipTest("软著材料与开源仓库分开存放，未随仓库提供")
+        text = _read(manual)
         expect = f"{kt_files + py_files} 个源文件、{kt_lines + py_lines:,} 行（Kotlin {kt_files} 个 + Python {py_files} 个）"
         self.assertIn(expect, text, f"软著说明书的源程序规模应更新为：{expect}")
 
 
 class TestCapabilityClaims(unittest.TestCase):
     def test_softcopy_limitation_is_current(self):
-        text = _read(ROOT / "docs" / "softcopy" / "软件说明书.md")
+        manual = ROOT / "docs" / "softcopy" / "软件说明书.md"
+        if not manual.exists():
+            self.skipTest("软著材料与开源仓库分开存放，未随仓库提供")
+        text = _read(manual)
         self.assertNotIn("JavaScript 等后端尚未实现", text, "JavaScript 运行时已内置，局限性表述过期")
         self.assertNotIn("当前仅内置 Python 运行时", text, "已内置 Python + JavaScript 两个运行时")
 

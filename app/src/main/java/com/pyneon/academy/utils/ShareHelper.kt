@@ -17,7 +17,7 @@ object ShareHelper {
     // 复制到剪贴板。诊断日志导出用，不申请存储权限，也不留文件。
     fun copyText(context: Context, text: String) {
         val cm = context.getSystemService(Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager
-        cm.setPrimaryClip(android.content.ClipData.newPlainText("CodeLearning", text))
+        cm.setPrimaryClip(android.content.ClipData.newPlainText("PyNeon", text))
     }
 
     fun sendEmail(context: Context, email: String, subject: String = "") {
@@ -31,7 +31,7 @@ object ShareHelper {
 
     fun shareAchievement(context: Context, xp: Int, streak: Int, rank: String) {
         val text = buildString {
-            appendLine("我在码上学的编程")
+            appendLine("我在 PyNeon 学的编程")
             appendLine()
             appendLine("XP：$xp")
             appendLine("连击：$streak 天")

@@ -60,7 +60,7 @@ fun BootScreen(
     
     val bootLines = remember(pyStatus) {
         listOf(
-            "码上 $appVersion .............. OK",
+            "PyNeon $appVersion .............. OK",
             "初始化执行引擎 ............ OK",
             when (pyStatus) {
                 "RUN" -> "加载语言运行时 ............. 校验中"
@@ -138,7 +138,7 @@ fun BootScreen(
             .padding(28.dp)
     ) {
         Column(Modifier.align(Alignment.Center)) {
-            GlitchText("码上", style = MaterialTheme.typography.headlineLarge, color = NeonCyan)
+            GlitchText("PyNeon", style = MaterialTheme.typography.headlineLarge, color = NeonCyan)
             Text(
                 "编程学院",
                 style = MaterialTheme.typography.labelMedium,

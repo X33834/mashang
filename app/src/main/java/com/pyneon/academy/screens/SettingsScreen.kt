@@ -298,7 +298,7 @@ fun SettingsScreen(
                         label = "联系开发者",
                         accent = NeonGreen,
                         leadingIcon = Icons.Outlined.Email,
-                        onClick = { ShareHelper.sendEmail(context, AppConstants.CONTACT_EMAIL, "关于 CodeLearning 的建议") },
+                        onClick = { ShareHelper.sendEmail(context, AppConstants.CONTACT_EMAIL, "关于 PyNeon 的建议") },
                         modifier = Modifier.weight(1f)
                     )
                     NeonButton(

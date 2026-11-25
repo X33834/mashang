@@ -17,8 +17,8 @@ object I18n {
     
     private fun getZhString(key: String): String {
         return when (key) {
-            "welcome.title" -> "欢迎使用 CodeLearning"
-            "welcome.subtitle" -> "码上编程学院"
+            "welcome.title" -> "欢迎使用 PyNeon"
+            "welcome.subtitle" -> "PyNeon 编程学院"
             "welcome.offline.title" -> "完全离线学习"
             "welcome.offline.desc" -> "内置语言运行时\n地铁、飞机、没网的地方都能学\n随时打开随时练"
             "welcome.gamification.title" -> "游戏化成长"
@@ -36,7 +36,7 @@ object I18n {
     
     private fun getEnString(key: String): String {
         return when (key) {
-            "welcome.title" -> "Welcome to CodeLearning"
+            "welcome.title" -> "Welcome to PyNeon"
             "welcome.subtitle" -> "Learn to Code, Offline"
             "welcome.offline.title" -> "Learn Completely Offline"
             "welcome.offline.desc" -> "Built-in language runtimes\nLearn on subway, plane, anywhere\nNo internet needed"
@@ -55,7 +55,7 @@ object I18n {
     
     private fun getJaString(key: String): String {
         return when (key) {
-            "welcome.title" -> "CodeLearning へようこそ"
+            "welcome.title" -> "PyNeon へようこそ"
             "welcome.subtitle" -> "今すぐコードを書こう"
             "button.next" -> "次へ"
             "button.skip" -> "スキップ"

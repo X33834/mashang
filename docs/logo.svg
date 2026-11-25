@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="CodeLearning · 码上">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="PyNeon">
   <defs>
     <linearGradient id="cl-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0A0E17"/>
@@ -30,8 +30,8 @@
     <path d="M40 74 L40 64 L51 64 L51 54 L62 54 L62 44" stroke="#00FF9C" stroke-width="8"/>
   </g>
 
-  <text x="250" y="139" font-family="Segoe UI, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="86" font-weight="700" letter-spacing="-1.5" fill="#F9FAFB">Code<tspan fill="url(#cl-sweep)">Learning</tspan></text>
-  <text x="253" y="197" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="29" font-weight="500" letter-spacing="3.5" fill="#93A3B8">码上 · 离线编程学习终端</text>
+  <text x="250" y="139" font-family="Segoe UI, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="86" font-weight="700" letter-spacing="-1.5" fill="#F9FAFB">Py<tspan fill="url(#cl-sweep)">Neon</tspan></text>
+  <text x="253" y="197" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif" font-size="29" font-weight="500" letter-spacing="3.5" fill="#93A3B8">PyNeon · 离线编程学习终端</text>
 
   <rect x="253" y="230" width="64" height="3.5" rx="1.75" fill="#00E5FF"/>
   <text x="333" y="237" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="17" letter-spacing="2.6" fill="#00E5FF" opacity="0.62">OFFLINE FIRST · 6 LANGUAGES</text>

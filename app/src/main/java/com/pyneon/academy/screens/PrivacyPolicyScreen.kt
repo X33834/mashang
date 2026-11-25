@@ -65,7 +65,7 @@ fun PrivacyPolicyScreen(onBack: () -> Unit) {
         NeonButton(
             label = "隐私咨询",
             accent = NeonCyan,
-            onClick = { ShareHelper.sendEmail(context, AppConstants.CONTACT_EMAIL, "CodeLearning 隐私咨询") },
+            onClick = { ShareHelper.sendEmail(context, AppConstants.CONTACT_EMAIL, "PyNeon 隐私咨询") },
             modifier = Modifier.fillMaxWidth()
         )
         NeonButton(label = "返回", accent = NeonCyan, onClick = onBack, modifier = Modifier.fillMaxWidth())

@@ -4,7 +4,7 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- CodeLearning 标记：< > 代码括号 + 上升阶梯（学习进阶）。
+    <!-- PyNeon 标记：< > 代码括号 + 上升阶梯（学习进阶）。
          笔画 8/108 单位；整体外接框 23..85 × 28..80，落在 66dp 自适应安全圆内。 -->
     <path
         android:pathData="M41,32 L27,54 L41,76"

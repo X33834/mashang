@@ -40,6 +40,6 @@ class BootConsentTest {
         rule.waitForIdle()
         val tree = rule.onRoot().printToString()
         assertTrue("启动页渲染为空", tree.isNotBlank())
-        assertTrue("启动页应有引导文字", tree.contains("初始化执行引擎") || tree.contains("CodeLearning") || tree.contains("码上"))
+        assertTrue("启动页应有引导文字", tree.contains("初始化执行引擎") || tree.contains("PyNeon"))
     }
 }

@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets
  * 内容中心和检查更新共用的小 HTTP 客户端，限制超时和响应大小。
  */
 object HttpText {
-    const val DEFAULT_USER_AGENT = "CodeLearning-Android"
+    const val DEFAULT_USER_AGENT = "PyNeon-Android"
     private const val DEFAULT_TIMEOUT_MS = 6000
     private const val DEFAULT_MAX_BYTES = 5 * 1024 * 1024
 

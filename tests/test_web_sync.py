@@ -172,13 +172,13 @@ class TestArenaLangSplit(unittest.TestCase):
 
 class TestBrandResidue(unittest.TestCase):
     def test_no_residue(self):
-        """R6: 三处品牌残留为零。"""
+        """品牌切到 PyNeon 后，三处公开页面不得再有旧名。"""
         targets = [
             os.path.join(WEB, "index.html"),
             os.path.join(ROOT, "docs", "index.html"),
             os.path.join(ROOT, "README.zh-CN.md"),
         ]
-        patterns = ["码上 · 码上", "PY//NOW", "码上Python", "码上PYTHON"]
+        patterns = ["码上", "CodeLearning", "PY//NOW"]
         hits = []
         for path in targets:
             text = _read(path)
@@ -186,7 +186,7 @@ class TestBrandResidue(unittest.TestCase):
                 if p in text:
                     hits.append(f"{os.path.relpath(path, ROOT)}: {p}")
         self.assertEqual(hits, [], f"品牌残留: {hits}")
-        self.assertIn("码上", _read(os.path.join(WEB, "index.html")), "web 首页应含新品牌名")
+        self.assertIn("PyNeon", _read(os.path.join(WEB, "index.html")), "web 首页应含新品牌名")
 
     def test_banner_and_poster_are_not_old_brand_assets(self):
         """R6b: 头图/海报曾整张是「码上Python / PY//NOW / 30 讲」，

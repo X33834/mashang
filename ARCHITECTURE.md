@@ -1,4 +1,4 @@
-# 码上 · Mashang — Architecture
+# PyNeon — Architecture
 
 > 面向贡献者与二次开发者的实现说明。产品定位与下载入口见 [README.zh-CN.md](README.zh-CN.md)。
 > 本文所有数字与文件路径均来自仓库当前代码；改动后请同步本节与 `tests/`。

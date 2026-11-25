@@ -2,13 +2,13 @@
 
 ## 产品与定位
 
-Q：CodeLearning 是什么？和 Pydroid、SoloLearn、Mimo 有什么不同？
+Q：PyNeon 是什么？和 Pydroid、SoloLearn、Mimo 有什么不同？
 
-CodeLearning（码上）是一台「课程、判题、运行环境」打包在一起的离线学习终端。Pydroid 给你一个空白 IDE；SoloLearn/Mimo 给你选择题和云端判题。CodeLearning 要求你真的写代码，用 assert 判题卡住进度，解释器就在手机里，全程可断网。
+PyNeon 是一台「课程、判题、运行环境」打包在一起的离线学习终端。Pydroid 给你一个空白 IDE；SoloLearn/Mimo 给你选择题和云端判题。PyNeon 要求你真的写代码，用 assert 判题卡住进度，解释器就在手机里，全程可断网。
 
-Q：为什么叫「CodeLearning」/「码上」？
+Q：为什么叫「PyNeon」？
 
-英文名 CodeLearning 直白点题：在代码里学习。中文名「码上」谐音「马上」，打开就能写，不用等编译、不用等云端返回。
+PyNeon = Python + Neon。Py 指 Python 主线，Neon 是终端里的霓虹色；不沿用「码上」这个旧名，避免和已有商标、别的编程平台撞车。
 
 Q：只学 Python 吗？
 
@@ -32,7 +32,7 @@ Q：我的学习数据存在哪？会上传吗？
 
 Q：换手机怎么迁移？
 
-「我的、备份/恢复、导出备份」生成 JSON 到 Downloads/CodeLearning；新机用同一入口导入。备份含 XP、通关、连击、错题本与复习卡。
+「我的、备份/恢复、导出备份」生成 JSON 到 Downloads/PyNeon；新机用同一入口导入。备份含 XP、通关、连击、错题本与复习卡。
 
 Q：可以商用吗？
 

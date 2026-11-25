@@ -1,13 +1,13 @@
 # 华为应用市场（AppGallery）上架指南
 
-> 本文件为 CodeLearning（码上） 提交华为应用市场的材料清单与文案模板。
+> 本文件为 PyNeon 提交华为应用市场的材料清单与文案模板。
 > 开发者信息已填写：**bigbad** / **bigbad338@outlook.com**（与 `AppConstants.kt` 一致）。仅「生效日期」留待你设定发布日。
 
 ## 一、基础信息
 
 | 项目 | 内容 |
 | --- | --- |
-| 应用名称 | CodeLearning（中文环境显示「码上」） |
+| 应用名称 | PyNeon（中文环境显示「PyNeon」） |
 | 包名 | com.pyneon.academy（以 build.gradle.kts 为准） |
 | 分类 | 教育 → 编程/计算机教育 |
 | 年龄分级 | 3+（所有人，不含广告与内购） |
@@ -41,7 +41,7 @@
 
 **详细简介：**
 ```
-CodeLearning（码上）把一台真正的编程终端装进你的口袋。
+PyNeon把一台真正的编程终端装进你的口袋。
 
 🔌 完全离线
 • 设备端嵌入真实 CPython 3.13、Rhino（JavaScript）、TypeScript、C、LuaJ、SQLite 六个运行时，地铁、飞机、深山都能学

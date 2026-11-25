@@ -66,7 +66,7 @@ object DebugLog {
 
 
     fun export(): String = buildString {
-        appendLine("CodeLearning 诊断日志")
+        appendLine("PyNeon 诊断日志")
         appendLine("共 ${buffer.size} 条")
         appendLine()
         buffer.forEach { appendLine(it.format()) }

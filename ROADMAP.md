@@ -9,7 +9,7 @@
 
 - [x] v0.7.0 — 六门语言统一 38 讲（基础 / 核心 / 进阶 / 专业四包），C 解释器扩展到指针、结构体、switch
 - [x] v0.7.0 — 语言中心按需加载、单包下载与整门装齐，catalog 增加 lessons / bytes / tier
-- [x] v0.7.0 — 品牌升级 CodeLearning（码上），三语 README、证书、终端、官网同步
+- [x] v0.7.0 — 品牌升级 PyNeon，三语 README、证书、终端、官网同步
 - [x] v0.7.0 — 前后端去重：ScreenHeader / NeonTopBar、JsonListFile、RunResultJson、HttpText
 - [ ] v0.7.x — 平板 / 横屏自适应布局
 - [ ] v0.7.x — 网页端离线缓存（Service Worker，二次打开不再下载 WASM）

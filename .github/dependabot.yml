@@ -11,7 +11,7 @@ updates:
     open-pull-requests-limit: 3
 
   # Gradle：Android 依赖与 Kotlin/AGP 升级。Chaquopy 与 AGP/Kotlin/Gradle
-  # 是精确匹配的组合（见 AGENTS.md），升级必须一起验证，因此单独分组。
+  # 是精确匹配的组合（见 DEVELOPMENT.md），升级必须一起验证，因此单独分组。
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:

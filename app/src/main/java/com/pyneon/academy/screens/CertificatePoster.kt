@@ -145,7 +145,7 @@ object CertificatePoster {
             typeface = Typeface.create(Typeface.MONOSPACE, Typeface.NORMAL)
             textAlign = Paint.Align.CENTER
         }
-        canvas.drawText("CodeLearning（码上）", WIDTH / 2f, MARGIN + 160f, subPaint)
+        canvas.drawText("PyNeon", WIDTH / 2f, MARGIN + 160f, subPaint)
 
         // 分隔线
         val dividerPaint = Paint().apply {
@@ -247,7 +247,7 @@ object CertificatePoster {
             isAntiAlias = true
             textAlign = Paint.Align.CENTER
         }
-        canvas.drawText("CodeLearning，离线优先，零上传", WIDTH / 2f, (HEIGHT - MARGIN - 40).toFloat(), footerPaint)
+        canvas.drawText("PyNeon，离线优先，零上传", WIDTH / 2f, (HEIGHT - MARGIN - 40).toFloat(), footerPaint)
         canvas.drawText("gitcode.com/badhope/mashang", WIDTH / 2f, (HEIGHT - MARGIN - 15).toFloat(), footerPaint)
 
         // 故障风格的装饰线
@@ -277,11 +277,11 @@ object CertificatePoster {
     private fun saveToGallery(context: Context, bitmap: Bitmap): Uri? {
         val resolver = context.contentResolver
         val values = ContentValues().apply {
-            put(MediaStore.Images.Media.DISPLAY_NAME, "CodeLearning_Certificate_${System.currentTimeMillis()}.png")
+            put(MediaStore.Images.Media.DISPLAY_NAME, "PyNeon_Certificate_${System.currentTimeMillis()}.png")
             put(MediaStore.Images.Media.MIME_TYPE, "image/png")
             // minSdk 29 起 MediaStore 的 RELATIVE_PATH / IS_PENDING 全版本可用，
             // 不再需要 pre-Q 分支
-            put(MediaStore.Images.Media.RELATIVE_PATH, Environment.DIRECTORY_PICTURES + "/CodeLearning")
+            put(MediaStore.Images.Media.RELATIVE_PATH, Environment.DIRECTORY_PICTURES + "/PyNeon")
             put(MediaStore.Images.Media.IS_PENDING, 1)
         }
 

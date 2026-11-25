@@ -1,6 +1,6 @@
 # 贡献指南 · Contributing
 
-感谢关注「码上 · Mashang」！这是一个 Kotlin + Jetpack Compose 的 Android 离线编程学习终端，附浏览器端（Pyodide）。欢迎课程内容、Bug 修复、UI 打磨、多语言翻译与文档改进。
+感谢关注「PyNeon」！这是一个 Kotlin + Jetpack Compose 的 Android 离线编程学习终端，附浏览器端（Pyodide）。欢迎课程内容、Bug 修复、UI 打磨、多语言翻译与文档改进。
 
 ## 环境准备
 

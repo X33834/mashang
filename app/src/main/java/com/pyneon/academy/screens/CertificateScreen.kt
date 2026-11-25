@@ -91,8 +91,8 @@ fun CertificateScreen(onBack: () -> Unit) {
                     tint = NeonYellow,
                     modifier = Modifier.size(44.dp)
                 )
-                GlitchText("CodeLearning", style = MaterialTheme.typography.titleLarge, color = NeonCyan)
-                Text("CodeLearning（码上）毕业认证", style = MaterialTheme.typography.titleMedium, color = TextMid)
+                GlitchText("PyNeon", style = MaterialTheme.typography.titleLarge, color = NeonCyan)
+                Text("PyNeon毕业认证", style = MaterialTheme.typography.titleMedium, color = TextMid)
                 Box(Modifier.fillMaxWidth().height(1.dp).background(NeonYellow.copy(alpha = 0.4f)))
                 Spacer(Modifier.height(4.dp))
                 Text("兹证明 本机学习者", style = MaterialTheme.typography.bodyLarge, color = TextMid)

@@ -91,12 +91,12 @@ fun WelcomeTutorial(onComplete: () -> Unit) {
 
             // 标题
             Text(
-                "欢迎使用 CodeLearning",
+                "欢迎使用 PyNeon",
                 style = MaterialTheme.typography.headlineMedium,
                 color = NeonCyan
             )
             Text(
-                "码上编程学院",
+                "PyNeon 编程学院",
                 style = MaterialTheme.typography.bodyMedium,
                 color = NeonMagenta,
                 modifier = Modifier.padding(top = 8.dp)

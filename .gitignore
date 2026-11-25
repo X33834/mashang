@@ -11,10 +11,6 @@ captures/
 keystore.properties
 *.jks
 *.keystore
-.opencode/
-
-# 工作区产物（审计报告 / 构建日志 / 记忆笔记，不入库）
-.workbuddy/
 
 __pycache__/
 *.pyc
@@ -25,7 +21,7 @@ __pycache__/
 # Room 导出的数据库 schema（由 exportSchema=true 生成，用于手写迁移时 diff）
 app/schemas/
 
-# 软著送审件（由 tools/softcopy_source.py 生成，随生成即可，不入库）
+# 构建/发布产物（不入库）
 dist/
 
 # 运行/调试日志与临时笔记（不入库）
@@ -34,9 +30,7 @@ boot.log
 diary.txt
 neon_log.txt
 note.txt
-opencode.json
 
-.aqg/
 
 # 插件本地状态（hook 计数 / 契约归属，含会话 id）
 .v2c/
@@ -48,3 +42,9 @@ htmlcov/
 
 # README 截图的原始素材（成品在 demo/app/，原始连拍不入库）
 demo/shots2/
+
+# 软著材料与开源仓库分开维护，不随开源仓库提交
+docs/softcopy/
+docs/SOFTCOPY_ASSESSMENT.md
+tools/softcopy_source.py
+tools/build_seal_docx.py

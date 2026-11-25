@@ -1,18 +1,18 @@
-# CodeLearning · 码上 — Brand Guidelines
+# PyNeon — Brand Guidelines
 
 ## Project Identity
 
 ### Official Name
-- **English**: CodeLearning（一个词，C 与 L 大写；2026-11 起主品牌）
-- **Chinese**: 码上（保留为中文名，码上 = immediately / on the code）
-- **标准写法**: `CodeLearning` 或 `CodeLearning · 码上`
+- **English**: PyNeon（一个词，P 与 N 大写；2026-11 起主品牌）
+- **Chinese**: 中文环境同样显示 PyNeon；不再保留「码上」作为中文名
+- **标准写法**: `PyNeon`
 - **旧称**: Mashang 仅保留为仓库名 / 域名 / 包标识（仓库 URL 与 `com.pyneon.academy` 不变），不再用于任何展示文案
 
-> 品牌重塑说明（2026-11-06）：英文主品牌由「码上 / Mashang」升级为 **CodeLearning**，中文名「码上」保留。
+> 品牌重塑说明（2026-11-25）：主品牌由「CodeLearning / 码上」改为 **PyNeon**；旧名只留在仓库名、域名和包标识里，不再用于任何展示文案。
 > 命名从「单一语言 + 短暂即时感」转向「在代码里持续学习」；产品定位仍是多语言离线编程学习终端，
 > 当前内置 CPython 3.13、Rhino（JavaScript）、TypeScript 类型擦除、C 教学子集、LuaJ、SQLite 六个设备端运行时。
 >
-> 应用桌面名：英文环境显示 `CodeLearning`，中文环境显示 `码上`（`values/strings.xml` 与 `values-zh/strings.xml`）。
+> 应用桌面名：中英文环境都显示 `PyNeon`（`values/strings.xml` 与 `values-zh/strings.xml`）。
 
 ### Taglines
 
@@ -20,7 +20,7 @@
 > "Code now, learn anywhere. Six languages, 230+ lessons — all offline."
 
 #### Primary (Chinese)
-> "码上 · 离线编程学习终端 —— 六门语言，共 230+ 讲，真跑，全离线。"
+> "PyNeon · 离线编程学习终端 —— 六门语言，共 230+ 讲，真跑，全离线。"
 
 #### Secondary Options
 - "Your pocket-sized cyberpunk coding terminal"
@@ -28,7 +28,7 @@
 - "From print() to decorators — fully offline"
 
 #### Chinese
-> "码上，就是马上。"
+> "PyNeon，在终端里写代码。"
 > "装进口袋的赛博朋克编程学习终端"
 
 #### Japanese
@@ -82,7 +82,7 @@
 #### 交付物
 | 文件 | 尺寸 | 用途 |
 | --- | --- | --- |
-| `docs/logo.svg` | 1200×300 | 横版组合标志（图形 + CodeLearning 字标 + 「码上 · 离线编程学习终端」副标） |
+| `docs/logo.svg` | 1200×300 | 横版组合标志（图形 + PyNeon 字标 + 「PyNeon · 离线编程学习终端」副标） |
 | `docs/logo-mark.svg` | 512×512 | 方形纯图形标记，用于 favicon / 社交头像 |
 | `app/src/main/res/drawable/ic_launcher_foreground.xml` | 108×108 viewport | 自适应图标前景（图形居中，安全区内） |
 | `app/src/main/res/drawable/ic_launcher_legacy.xml` | 48×48 | 旧式图标（深色圆角底 + 同一标记） |
@@ -101,7 +101,7 @@
 - 不要改变括号与阶梯的配色关系（括号 Cyan、阶梯 Green）
 - 不要在低对比或高频纹理背景上直接放置
 - 不要给标志叠加投影、描边或多重渐变
-- 不要用 Mashang / 码上替换英文主字标（中文名只作为副标出现）
+- 不要用 Mashang / PyNeon替换英文主字标（中文名只作为副标出现）
 
 ## Tone of Voice
 
@@ -181,7 +181,7 @@
 
 #### Twitter/X (280 chars)
 ```
-CodeLearning v0.6 just dropped!
+PyNeon v0.6 just dropped!
 
 ✓ Embedded CPython 3.13
 ✓ 6 languages, 230+ lessons
@@ -194,7 +194,7 @@ Download: [link]
 
 #### LinkedIn (Professional)
 ```
-Excited to share CodeLearning (码上) v0.6 - an open-source Android app that teaches six programming languages completely offline.
+Excited to share PyNeon v0.6 - an open-source Android app that teaches six programming languages completely offline.
 
 Built with Kotlin, Jetpack Compose, and Chaquopy (embedded CPython 3.13), it features:
 • Six device-side runtimes: CPython 3.13, Rhino, TypeScript, C, LuaJ, SQLite
@@ -242,7 +242,7 @@ For brand usage questions:
 - Email: [project maintainer email]
 
 License: MIT - Free to use with attribution
-Trademark: CodeLearning and 码上 names and logo are project identity markers
+Trademark: PyNeon name and logo are used for product identification only; no registered trademark is claimed
 
 ---
 

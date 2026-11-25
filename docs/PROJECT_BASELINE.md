@@ -1,6 +1,6 @@
 # 项目基线
 
-> 适用项目：CodeLearning（码上）  
+> 适用项目：PyNeon  
 > 文档版本：2026-11-24 / baseline-3
 > 维护人：项目负责人  
 > 更新规则：每次版本号、主分支、课程数、运行时或发布状态变化时同步更新，并由 `tools/check_baseline.py` 校验关键字段。
@@ -13,7 +13,7 @@
 
 | 项目 | 当前值 |
 | --- | --- |
-| 应用名 | CodeLearning（码上） |
+| 应用名 | PyNeon |
 | 包名 | `com.pyneon.academy` |
 | 发布版本 | `0.7.5`，`versionCode 24` |
 | 最低系统 | Android 10（API 29） |

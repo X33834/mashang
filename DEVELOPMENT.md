@@ -1,4 +1,4 @@
-# 码上 · Mashang — 仓库开发说明
+# PyNeon — 仓库开发说明
 
 赛博朋克风离线编程学习终端（Android，内置 CPython 3.13 + Rhino JavaScript），附浏览器端（Pyodide）。产品说明见 `README.zh-CN.md`，架构与契约见 `ARCHITECTURE.md`，设计规范见 `BRAND_GUIDELINES.md`。
 
